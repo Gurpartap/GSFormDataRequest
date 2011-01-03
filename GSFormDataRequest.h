@@ -11,13 +11,13 @@
 
 @interface GSFormDataRequest : NSMutableURLRequest {
   // Parameters that will be POSTed to the url
-	NSMutableArray *postData;
+  NSMutableArray *postData;
   
   // Compiled POST parameters
   NSMutableData *postBody;
-	
-	// Files that will be POSTed to the url
-	NSMutableArray *fileData;
+  
+  // Files that will be POSTed to the url
+  NSMutableArray *fileData;
   
   NSDictionary *userInfo;
 }
